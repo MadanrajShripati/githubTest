@@ -1,1 +1,3 @@
-echo 'This is a jenkinks file' 
+pipeline{
+echo 'This is a jenkinks file'
+}
