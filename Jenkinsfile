@@ -1,2 +1,9 @@
-
-echo 'This is a jenkinks file'
+pipeline {
+  agent any
+  stages {
+    stage('Build') {
+      steps {
+        echo "I am a ${MYVAR}"
+      }
+    }
+  }
