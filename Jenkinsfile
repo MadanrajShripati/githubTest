@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        echo 'Hi Ritupurna Meha'
+        echo 'Hi DSM Group'
       }
     }
   }
