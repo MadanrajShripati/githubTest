@@ -1,9 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Build') {
+    stage('Test') {
       steps {
-        echo "I am a ${MYVAR}"
+        sh 'echo hello Madan'
       }
     }
   }
